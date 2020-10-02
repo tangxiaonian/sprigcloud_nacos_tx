@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tang.seata.stock.mapper.StockMapper">
+  <resultMap id="BaseResultMap" type="com.tang.seata.stock.domain.Stock">
+    <!--@mbg.generated-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="commodity_id" jdbcType="INTEGER" property="commodityId" />
+    <result column="stock" jdbcType="INTEGER" property="stock" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, commodity_id, stock
+  </sql>
+</mapper>
